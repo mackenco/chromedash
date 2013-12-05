@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1000">
+
+  <!--
+    Built by
+    Jonathan Tamboer / Mosodofu Studio
+    http://mosodofu.com
+	Adapted by 
+    Colin MacKenzie
+  -->
+
+  <title>Links</title>
+  <style>
+
+  html, body, div, h1, h2, section, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: #999;
+    background: #fff;
+  }
+
+  #clock {
+    margin: 20px 0;
+    color: #ccc;
+    font-size: 160px;
+    line-height: 1.0;
+    text-align: center;
+  }
+
+  #wrap {
+    margin: auto;
+    max-width: 1000px;
+  }
+
+  #wrap:after {
+    content: "";
+    display: table;
+  }
+
+  section {
+    display: block;
+    float: left;
+    padding: 0 40px;
+  }
+
+  section:nth-of-type(1) h2 {
+    color: #f00;
+  }
+
+  section:nth-of-type(2) h2 {
+    color: #0c0;
+  }
+
+  section:nth-of-type(3) h2 {
+    color: #00f;
+  }
+
+  section:nth-of-type(4) h2 {
+    color: #fa0;
+  }
+
+  section:nth-of-type(5) h2 {
+    color: #840;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+
+  li {
+  }
+
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #00f;
+  }
+
+  li > ul {
+    margin: 0 0 0 20px;
+  }
+
+  li > ul > li {
+  }
+
+  </style>
+</head>
+<body>
+
+  <h1 id="clock">00:00</h1>
+
+  <div id="wrap">
+	  <section>
+			<h2>MediaMath</h2>
+			<ul>
+				<li><a href="http://mediamath.bluejeans.com/">Blue Jeans</a></li>
+				<li><a href="https://issues.mediamath.com/secure/Dashboard.jspa">JIRA</a></li>
+			</ul>
+		</section>
+
+    <section>
+      <h2>Ruby</h2>
+      <ul>
+        <li>
+          <a href="http://ruby-doc.org/core-1.9.3/">API</a>
+          <ul>
+            <li><a href="http://ruby-doc.org/core-1.9.3/Array.html">Array</a></li>
+            <li><a href="http://ruby-doc.org/core-1.9.3/Enumerable.html">Enumerable</a></li>
+            <li><a href="http://ruby-doc.org/core-1.9.3/Hash.html">Hash</a></li>
+            <li><a href="http://ruby-doc.org/core-1.9.3/Object.html">Object</a></li>
+            <li><a href="http://ruby-doc.org/core-1.9.3/String.html">String</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Rails</h2>
+      <ul>
+        <li><a href="http://api.rubyonrails.org/v3.2.14/">API</a></li>
+        <li>
+          <a href="http://guides.rubyonrails.org/v3.2.14/">Guides</a>
+          <ul>
+            <li><a href="http://guides.rubyonrails.org/v3.2.14/association_basics.html">Associate</a></li>
+            <li><a href="http://guides.rubyonrails.org/v3.2.14/active_record_querying.html">Query</a></li>
+            <li><a href="http://guides.rubyonrails.org/v3.2.14/layouts_and_rendering.html">Render</a></li>
+            <li><a href="http://guides.rubyonrails.org/v3.2.14/routing.html">Route</a></li>
+            <li><a href="http://guides.rubyonrails.org/v3.2.14/active_record_validations_callbacks.html">Validate</a></li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Resources</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/CSS/CSS_Reference">CSS 3</a></li>
+        <li><a href="http://git-scm.com/docs">Git</a></li>
+        <li><a href="http://simon.html5.org/html5-elements">HTML</a></li>
+				<ul>
+					<li> JS
+						<ul>
+			        <li><a href="http://backbonejs.org/">Backbone</a></li>
+			        <li><a href="http://api.jquery.com/">jQuery</a></li>
+							<li><a href="https://developer.mozilla.org/en-US/docs/JavaScript">JS Source</a>
+						</ul>
+					</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tools</h2>
+      <ul>
+        <li><a href="https://github.com/">Github</a></li>
+        <li><a href="https://mail.google.com/mail/">Gmail</a></li>
+        <li><a href="http://localhost:3000/">Localhost</a></li>
+				<li><a href="https://connect.emailsrvr.com/">Remote Email</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <script src="tab.js"></script>
+</body>
+</html>
